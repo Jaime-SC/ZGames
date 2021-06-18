@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('registrar_juegos', function () {
-//   return view('registrar_juegos');
-//});
+//Route::view("ruta","nombre_de_vista")->name(nombre_ruta)
 
 Route::view("/","home")->name("home");
 Route::view("/ver_consolas", "ver_consolas")->name("ver_consolas");
